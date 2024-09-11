@@ -3,10 +3,11 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-dark fixed-top">
         <div className="container-fluid container">
           <a className="navbar-brand" href="#">
-            Flutterbook
+          <i className="fa-brands fa-flutter"></i>
+            lutterbook
           </a>
           <button
             className="navbar-toggler"
@@ -18,8 +19,10 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+
+
           <div
-            className="offcanvas offcanvas-end text-bg-dark"
+            className="offcanvas offcanvas-end text-bg-nav"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
@@ -64,7 +67,7 @@ function Navbar() {
                   >
                     1. Download & Install
                   </a>
-                  <ul className="dropdown-menu dropdown-menu-dark">
+                  <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
                         1. Flutter
@@ -94,7 +97,7 @@ function Navbar() {
                   >
                     2. <b>Create</b> First Flutter App
                   </a>
-                  <ul className="dropdown-menu dropdown-menu-dark">
+                  <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
                         1. Open windows{" "}
@@ -125,7 +128,7 @@ function Navbar() {
                   >
                     3. <b>Run</b> First Flutter Demo App
                   </a>
-                  <ul className="dropdown-menu dropdown-menu-dark">
+                  <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
                         1. Open{" "}
@@ -169,7 +172,7 @@ function Navbar() {
                   >
                     4. Create Basic <b>Hello World</b> App
                   </a>
-                  <ul className="dropdown-menu dropdown-menu-dark">
+                  <ul className="dropdown-menu">
                     <li>
                       <h5>Step-1: Delete Demo Code</h5>
                       <a className="dropdown-item" href="#">
@@ -251,7 +254,7 @@ function Navbar() {
                   >
                     5. <b>AppBar</b>
                   </a>
-                  <ul className="dropdown-menu dropdown-menu-dark">
+                  <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#">
                         1. Properties

@@ -1,0 +1,22 @@
+.navbar{
+  background-color: rgb(2, 160, 233);
+}
+.nav-link{
+  color: white;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.text-bg-nav{
+  background-color: rgb(72, 141, 187);
+}
+
+.dropdown-menu{
+  color: white;
+  background-color: rgba(121, 219, 170, 0.829);
+}
