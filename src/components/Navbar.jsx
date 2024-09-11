@@ -108,7 +108,7 @@ function Navbar() {
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
-                        2. Enter command{" "}
+                        2. Command{" "}
                         <u>
                           <b>flutter create appname</b>
                         </u>
