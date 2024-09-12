@@ -74,7 +74,7 @@ function LearningCards() {
             </ul>
           </div>
           <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            src="https://i.postimg.cc/mkywKRmQ/Untitled-design.png"
             className="card-img-bottom"
             alt="Download & Install Flutter"
           />
@@ -105,7 +105,7 @@ function LearningCards() {
             </ul>
           </div>
           <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            src="https://i.postimg.cc/z3mr2CPL/create-first-flutter-app.png"
             className="card-img-bottom"
             alt="Download & Install Flutter"
           />
@@ -135,7 +135,7 @@ function LearningCards() {
             </ul>
           </div>
           <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            src="https://i.postimg.cc/xCc8WPgg/Run-First-Flutter-App.png"
             className="card-img-bottom"
             alt="Download & Install Flutter"
           />
