@@ -152,11 +152,6 @@ function LearningCards() {
               <li>Delete all code</li>
             </ul>
           </div>
-          <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
-            className="card-img-bottom"
-            alt="Download & Install Flutter"
-          />
           <div className="card-body">
             <h5>Step-2: Write New Code</h5>
             <p>There are <b>4 steps</b> to Run a new Flutter App</p>
@@ -168,7 +163,7 @@ function LearningCards() {
             </ul>
           </div>
           <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            src="https://i.postimg.cc/qRbvkDjW/Run-a-new-flutter-app.png"
             className="card-img-bottom"
             alt="Download & Install Flutter"
           />
