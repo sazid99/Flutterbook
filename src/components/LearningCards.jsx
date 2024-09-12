@@ -182,20 +182,25 @@ function LearningCards() {
             <h5>Proparties:</h5>
 
             <ul>
-              <li>title: <u><b>Text</b></u> widget</li>
-              <li>actions: <u><b>List</b></u> of <u><b>IconButton</b></u> widgets</li>
-              <li>leading: <u><b>Widget</b></u> (optional)</li>
-              <li>backgroundColor: <u><b>Color</b></u> (optional)</li>
-              <li>elevation: <u><b>double</b></u> (optional)</li>
+              <li>backgroundColor: <u><b>Color</b></u> (optional)</li> 
               <li>toolbarHeight: <u><b>double</b></u> (optional)</li>
+              {<br/>}
+              <li>title: <u><b>Text</b></u> widget</li>
+              <li>titleTextStyle: <u><b>TextStyle</b></u> (optional)</li>
               <li>titleSpacing: <u><b>double</b></u> (optional)</li>
               <li>centerTitle: <u><b>bool</b></u> (optional)</li>
-              <li>primary: <u><b>bool</b></u> (optional)</li>
               <li>showTitle: <u><b>bool</b></u> (optional)</li>
+              {<br/>}
+              <li>actions: <u><b>List</b></u> of <u><b>IconButton</b></u> widgets</li>
+              <li>actions: <u><b>List</b></u> of <u><b>Widget</b></u> widgets</li>
+              <li>leading: <u><b>Widget</b></u> (optional)</li>
+              <li>elevation: <u><b>double</b></u> (optional)</li>
+              <li>shape: <u><b>value</b></u> (optional)</li>
+              <li>primary: <u><b>bool</b></u> (optional)</li>
+
               <li>fixed: <u><b>bool</b></u> (optional)</li>
               <li>extendBody: <u><b>bool</b></u> (optional)</li>
               <li>scrollBehavior: <u><b>ScrollBehavior</b></u> (optional)</li>
-              <li>titleTextStyle: <u><b>TextStyle</b></u> (optional)</li>
               <li>actionsIconSize: <u><b>double</b></u> (optional)</li>
               <li>actionsIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
               <li>actionsLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
@@ -208,15 +213,40 @@ function LearningCards() {
               <li>actionsTextTheme: <u><b>TextThemeData</b></u> (optional)</li>
               <li>actionsWrap: <u><b>bool</b></u> (optional)</li>
               <li>actionsAlignment: <u><b>Alignment</b></u> (optional)</li>
-              <li>actionsIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
               <li>actionsTextTheme: <u><b>TextThemeData</b></u> (optional)</li>
+            </ul>
+          </div>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            className="card-img-bottom"
+            alt="Download & Install Flutter"
+          />
+        </div>
+        {/* BottomAppBar ==============================*/}
+        <div className="card bg-dark mt-5">
+          <div className="card-body">
+            <h5 className="card-title">BottomAppBar</h5> <hr />
+            <p>
+              BottomAppBar is a Material Design component that provides a consistent app bar at the bottom of the screen. It allows you to add actions, icons, and text to your app.
+            </p>
+            <ul>
+              <li>import <u><b>BottomAppBar.dart</b></u> file</li>
+              <li>create <u><b>BottomAppBar</b></u> widget</li>
+              <li>add <u><b>BottomAppBar</b></u> to your <u><b>build method</b></u></li>
+            </ul>
+            
+            <h5>Proparties:</h5>
+
+            <ul>
+              <li>backgroundColor: <u><b>Color</b></u> (optional)</li>
+              <li>elevation: <u><b>double</b></u> (optional)</li>
+              <li>toolbarHeight: <u><b>double</b></u> (optional)</li>
+              <li>shape: <u><b>value</b></u> (optional)</li>
+              <li>contentPadding: <u><b>EdgeInsets</b></u> (optional)</li>
+              <li>actions: <u><b>List</b></u> of <u><b>Widget</b></u> widgets</li>
               <li>actionsIconSize: <u><b>double</b></u> (optional)</li>
               <li>actionsIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
               <li>actionsTextTheme: <u><b>TextThemeData</b></u> (optional)</li>
-              <li>actionsIconSize: <u><b>double</b></u> (optional)</li>
-              <li>actionsIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
-              <li>actionsTextTheme: <u><b>TextThemeData</b></u> (optional)</li>
-              <li>actionsIconSize: <u><b>double</b></u> (optional)</li>
             </ul>
           </div>
           <img
