@@ -21,7 +21,7 @@ function LearningCards() {
         {/* 1.Download & Install ======================= */}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">1.Download & Install</h5> <hr />
+            <h5 className="card-title">1. Download & Install</h5> <hr />
             <ul>
               <li>
                 <p className="card-text">Flutter</p>
@@ -83,7 +83,7 @@ function LearningCards() {
         {/* 2.Create First Flutter App ===========================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">2.Create First Flutter App</h5> <hr />
+            <h5 className="card-title">2. Create First Flutter App</h5> <hr />
             <ul>
               <li>
                 <p>
@@ -114,7 +114,7 @@ function LearningCards() {
         {/* 3.Run First Flutter App ==============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">3.Run First Flutter App</h5> <hr />
+            <h5 className="card-title">3. Run First Flutter App</h5> <hr />
             <ul>
               <li>
                 <p className="card-text">Open <u><b>Android Studio</b></u></p>
@@ -143,7 +143,7 @@ function LearningCards() {
         {/* 4.Create Hello World App ===============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">4.Create Hello World App</h5> <hr />
+            <h5 className="card-title">4. Create Hello World App</h5> <hr />
             <h5>Step-1: Delete Demo Code</h5>
             <ul>
               <li>Open <u><b>Project Files</b></u></li>
@@ -292,10 +292,10 @@ function LearningCards() {
             alt="Download & Install Flutter"
           />
         </div>
-        {/* 6.Scaffold ==============================*/}
+        {/* 7. Scaffold ==============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">6. Scaffold</h5> <hr />
+            <h5 className="card-title">7. Scaffold</h5> <hr />
             <p>A Scaffold is a widget that provides a common layout structure for your app. It includes a default app bar, a body, and a bottom navigation bar.</p>
             <h5>Proparties:</h5>
 
@@ -332,10 +332,10 @@ function LearningCards() {
             alt="Download & Install Flutter"
           />
         </div>
-        {/* 6.AppBar ==============================*/}
+        {/* 8.AppBar ==============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">6.AppBar</h5> <hr />
+            <h5 className="card-title">8. AppBar</h5> <hr />
             <p>AppBar is a Material Design component that provides a consistent app bar across all screen sizes.</p>
             <ul>
               <li>import <u><b>AppBar.dart</b></u> file</li>
@@ -384,31 +384,27 @@ function LearningCards() {
             alt="Download & Install Flutter"
           />
         </div>
-        {/* 7.BottomNavigationBar ==============================*/}
+        {/* 9.BottomNavigationBar ==============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
-            <h5 className="card-title">7.BottomNavigationBar</h5> <hr />
-            <p>
-              BottomAppBar is a Material Design component that provides a consistent app bar at the bottom of the screen. It allows you to add actions, icons, and text to your app.
-            </p>
+            <h5 className="card-title">9. BottomNavigationBar</h5> <hr />
+            <p>BottomNavigationBar is a Material Design component that provides a navigation bar at the bottom of a screen.</p>
             <ul>
-              <li>import <u><b>BottomAppBar.dart</b></u> file</li>
-              <li>create <u><b>BottomAppBar</b></u> widget</li>
-              <li>add <u><b>BottomAppBar</b></u> to your <u><b>build method</b></u></li>
+              <li>import <u><b>BottomNavigationBar.dart</b></u> file</li>
+              <li>create <u><b>BottomNavigationBar</b></u> widget</li>
+              <li>add <u><b>BottomNavigationBar</b></u> to your <u><b>build method</b></u></li>
             </ul>
             
             <h5>Proparties:</h5>
 
             <ul>
-              <li>backgroundColor: <u><b>Color</b></u> (optional)</li>
-              <li>elevation: <u><b>double</b></u> (optional)</li>
-              <li>toolbarHeight: <u><b>double</b></u> (optional)</li>
-              <li>shape: <u><b>value</b></u> (optional)</li>
-              <li>contentPadding: <u><b>EdgeInsets</b></u> (optional)</li>
-              <li>actions: <u><b>List</b></u> of <u><b>Widget</b></u> widgets</li>
-              <li>actionsIconSize: <u><b>double</b></u> (optional)</li>
-              <li>actionsIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
-              <li>actionsTextTheme: <u><b>TextThemeData</b></u> (optional)</li>
+              <li>backgroundColor: <u><b>Color</b></u> (for BottomNavigationBar background Color)</li> 
+              <li>unselectedItemColor: <u><b>Color</b></u> (for BottomNavigationBar unselected item Color)</li> 
+              <li>selectedItemColor: <u><b>Color</b></u> (for BottomNavigationBar selected item Color)</li> 
+              <li>showUnselectedLabels: <u><b>bool</b></u> (optional)</li> 
+              <li>showSelectedLabels: <u><b>bool</b></u> (optional)</li> 
+              <li>labelColor: <u><b>Color</b></u> (optional)</li> 
+              <li>labelStyle: <u><b>TextStyle</b></u> (optional)</li>
             </ul>
           </div>
           <img
