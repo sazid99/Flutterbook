@@ -398,13 +398,124 @@ function LearningCards() {
             <h5>Proparties:</h5>
 
             <ul>
-              <li>backgroundColor: <u><b>Color</b></u> (for BottomNavigationBar background Color)</li> 
-              <li>unselectedItemColor: <u><b>Color</b></u> (for BottomNavigationBar unselected item Color)</li> 
-              <li>selectedItemColor: <u><b>Color</b></u> (for BottomNavigationBar selected item Color)</li> 
-              <li>showUnselectedLabels: <u><b>bool</b></u> (optional)</li> 
-              <li>showSelectedLabels: <u><b>bool</b></u> (optional)</li> 
-              <li>labelColor: <u><b>Color</b></u> (optional)</li> 
-              <li>labelStyle: <u><b>TextStyle</b></u> (optional)</li>
+              <li>items: <u><b>BottomNavigationBarItem</b></u> (required list)</li> 
+              <li>onTap: <u><b>void Function(int)</b></u> (optional)</li> 
+              <li>currentIndex: <u><b>(int)</b></u> (0)</li> 
+              <li>elevation: <u><b>double</b></u> (optional)</li> 
+              <li>type: <u><b>BottomNavigationBarType</b></u> (optional)</li> 
+              {<br/>} 
+              <li className="text-info">iconSize: <u><b>double</b></u> (24.0)</li> 
+              <li className="text-info">selectedFontSize: <u><b>double</b></u> (14.0)</li> 
+              <li className="text-info">unselectedFontSize: <u><b>double</b></u> (12.0)</li> 
+              {<br/>}
+              <li>fixedColor: <u><b>Color</b></u> (optional)</li> 
+              <li>backgroundColor: <u><b>Color</b></u> (optional)</li> 
+              <li>selectedItemColor: <u><b>Color</b></u> (optional)</li> 
+              <li>unselectedItemColor: <u><b>Color</b></u> (optional)</li> 
+              <li>selectedIconTheme: <u><b>IconThemeData</b></u> (optional)</li> 
+              <li>unselectedIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
+              <li>selectedLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
+              <li>unselectedLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
+              <li>showSelectedLabels: <u><b>bool</b></u> (optional)</li>
+              <li>showUnSelectedLabels: <u><b>bool</b></u> (optional)</li>
+              <li>mouseCursor: <u><b>MouseCursor</b></u> (optional)</li>
+              <li>enableFeedback: <u><b>bool</b></u> (optional)</li>
+              <li>landscapeLayout: <u><b>BottomNavigationBarLandscapeLayout</b></u> (optional)</li>
+              <li>useLegacyColorScheme: <u><b>bool</b></u> (true)</li>
+            </ul>
+          </div>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            className="card-img-bottom"
+            alt="Download & Install Flutter"
+          />
+        </div>
+
+
+        {/* 10. Drawer ==============================*/}
+        <div className="card bg-dark mt-5">
+          <div className="card-body">
+            <h5 className="card-title">10. Drawer</h5> <hr />
+            <p>
+              A drawer is a component that slides in from the side of the screen to reveal a list of options or actions. It can be used to present a hierarchical menu, switch between different views, or provide access to frequently used features.
+            </p>
+            
+            <h5>Proparties:</h5>
+
+            <ul>
+              <li>child: <u><b>Widget</b></u> (required)</li>
+              <li>backgroundColor: <u><b>Color</b></u> (optional)</li>
+              <li>shadowColor: <u><b>Color</b></u> (optional)</li>
+              <li>surfaceTintColor: <u><b>Color</b></u> (optional)</li>
+              <li>elevation: <u><b>double</b></u> (optional)</li>
+              <li>width: <u><b>double</b></u> (240.0)</li>
+              <li>shape: <u><b>ShapeBorder</b></u> (240.0)</li>
+              <li>clipBehavior: <u><b>Clip</b></u> (optional)</li>
+              <li>semanticLabel: <u><b>String</b></u> (optional)</li>
+            </ul>
+          </div>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            className="card-img-bottom"
+            alt="Download & Install Flutter"
+          />
+        </div>
+
+
+        {/* 11. Container ==============================*/}
+        <div className="card bg-dark mt-5">
+          <div className="card-body">
+            <h5 className="card-title">11. Container</h5> <hr />
+            <p>
+              A Container is a Flutter widget that provides a flexible and composable layout structure. It can be used to arrange child widgets in a grid, stack, or other layouts.
+            </p>
+            
+            <h5>Proparties:</h5>
+
+            <ul>
+              <li>child: <u><b>Widget</b></u> (required)</li>
+              <li>color: <u><b>Color</b></u> (optional)</li>
+              <li>height: <u><b>double</b></u> (optional)</li>
+              <li>width: <u><b>double</b></u> (optional)</li>
+              <li>padding: <u><b>EdgeInsetsGeometry</b></u> (optional)</li>
+              <li>margin: <u><b>EdgeInsetsGeometry</b></u> (optional)</li>
+              <li>decoration: <u><b>Decoration</b></u> (optional)</li>
+              <li>foregroundDecoration: <u><b>Decoration</b></u> (optional)</li>
+              <li>alignment: <u><b>AlignmentGeometry</b></u> (optional)</li>
+              <li>constraints: <u><b>BoxConstraints</b></u> (optional)</li>             
+              <li>transform: <u><b>Matrix4</b></u> (optional)</li>
+              <li>transformAlignment: <u><b>AlignmentGeometry</b></u> (optional)</li>
+              <li>clipBehavior: <u><b>Clip</b></u> (optional)</li>           
+            </ul>
+          </div>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            className="card-img-bottom"
+            alt="Download & Install Flutter"
+          />
+        </div>
+
+
+        {/* 12. Row & Column ==============================*/}
+        <div className="card bg-dark mt-5">
+          <div className="card-body">
+            <h5 className="card-title">12. Row & Column</h5> <hr />
+            <p>
+              A Row is a Flutter widget that arranges its children horizontally in a single line. It supports various alignment options, such as center, leading, trailing, and crossAxisAlignment.
+            </p> <br/>
+            <p>
+              A Column is a Flutter widget that arranges its children vertically in a single column. It supports various alignment options, such as center, leading, trailing, and crossAxisAlignment.
+            </p>
+            
+            <h5>Proparties:</h5>
+
+            <ul>
+              <li>children: <u><b>List&lt;Widget&gt;</b></u> (required)</li>
+              <li>mainAxisAlignment: <u><b>MainAxisAlignment</b></u> (optional)</li>
+              <li>crossAxisAlignment: <u><b>CrossAxisAlignment</b></u> (optional)</li>
+              <li>textDirection: <u><b>TextDirection</b></u> (optional)</li>
+              <li>verticalDirection: <u><b>VerticalDirection</b></u> (optional)</li>
+              <li>textBaseline: <u><b>TextBaseline</b></u> (optional)</li>
             </ul>
           </div>
           <img

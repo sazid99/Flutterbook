@@ -78,11 +78,11 @@ function Footer() {
                   <a
                     className="btn-floating btn-sm text-white text-decoration-none"
                     aria-label="Telegram"
-                    href="https://www.youtube.com/@mahmuduzzamansazid"
+                    href="https://t.me/flutterbook_community"
                     target="_black"
                   >
                     <i className="fa-brands fa-telegram contact-icon youtube"></i>{" "}
-                    Flutterbook Community
+                    @flutterbook_community
                   </a>
                 </p>
               </p>

@@ -11,6 +11,9 @@
 .navbar-toggler:focus{
   box-shadow: none;
 }
+.navbar-toggler {
+  border: none;
+}
 
 .text-bg-nav{
   background-color: rgb(72, 141, 187);
