@@ -398,26 +398,26 @@ function LearningCards() {
             <h5>Proparties:</h5>
 
             <ul>
-              <li>items: <u><b>BottomNavigationBarItem</b></u> (required list)</li> 
+              <li>items: <u><b>BottomNavigationBarItem</b></u> (required icon, label)</li> 
+              <li>type: <u><b>BottomNavigationBarType</b></u> (fixed, shifting)</li> 
+              <li>backgroundColor: <u><b>Color</b></u> (optional)</li> 
+              <li>currentIndex: <u><b>(int)</b></u> (0,1,2,3,4)</li>
               <li>onTap: <u><b>void Function(int)</b></u> (optional)</li> 
-              <li>currentIndex: <u><b>(int)</b></u> (0)</li> 
-              <li>elevation: <u><b>double</b></u> (optional)</li> 
-              <li>type: <u><b>BottomNavigationBarType</b></u> (optional)</li> 
               {<br/>} 
               <li className="text-info">iconSize: <u><b>double</b></u> (24.0)</li> 
               <li className="text-info">selectedFontSize: <u><b>double</b></u> (14.0)</li> 
-              <li className="text-info">unselectedFontSize: <u><b>double</b></u> (12.0)</li> 
+              <li className="text-info">unselectedFontSize: <u><b>double</b></u> (12.0)</li>
+              <li className="text-info">selectedItemColor: <u><b>Color</b></u> (optional)</li> 
+              <li className="text-info">unselectedItemColor: <u><b>Color</b></u> (optional)</li> 
+              <li className="text-info">selectedIconTheme: <u><b>IconThemeData</b></u> (optional)</li> 
+              <li className="text-info">unselectedIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
+              <li className="text-info">selectedLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
+              <li className="text-info">unselectedLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
+              <li className="text-info">showSelectedLabels: <u><b>bool</b></u> (optional)</li>
+              <li className="text-info">showUnSelectedLabels: <u><b>bool</b></u> (optional)</li> 
               {<br/>}
-              <li>fixedColor: <u><b>Color</b></u> (optional)</li> 
-              <li>backgroundColor: <u><b>Color</b></u> (optional)</li> 
-              <li>selectedItemColor: <u><b>Color</b></u> (optional)</li> 
-              <li>unselectedItemColor: <u><b>Color</b></u> (optional)</li> 
-              <li>selectedIconTheme: <u><b>IconThemeData</b></u> (optional)</li> 
-              <li>unselectedIconTheme: <u><b>IconThemeData</b></u> (optional)</li>
-              <li>selectedLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
-              <li>unselectedLabelStyle: <u><b>TextStyle</b></u> (optional)</li>
-              <li>showSelectedLabels: <u><b>bool</b></u> (optional)</li>
-              <li>showUnSelectedLabels: <u><b>bool</b></u> (optional)</li>
+              <li>fixedColor: <u><b>Color</b></u> (optional)</li>
+              <li>elevation: <u><b>double</b></u> (optional)</li>               
               <li>mouseCursor: <u><b>MouseCursor</b></u> (optional)</li>
               <li>enableFeedback: <u><b>bool</b></u> (optional)</li>
               <li>landscapeLayout: <u><b>BottomNavigationBarLandscapeLayout</b></u> (optional)</li>
