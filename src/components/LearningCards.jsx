@@ -425,7 +425,7 @@ function LearningCards() {
             </ul>
           </div>
           <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            src="https://i.postimg.cc/N0xX39qG/Bottom-Navigation-Bar.png"
             className="card-img-bottom"
             alt="Download & Install Flutter"
           />
