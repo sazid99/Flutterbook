@@ -21,6 +21,7 @@ function LearningCards() {
         {/* 1.Download & Install ======================= */}
         <div className="card bg-dark mt-5">
           <div className="card-body">
+            <section id="download-and-install"></section>
             <h5 className="card-title">1. Download & Install</h5> <hr />
             <ul>
               <li>
@@ -83,6 +84,7 @@ function LearningCards() {
         {/* 2.Create First Flutter App ===========================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
+            <section id="create-first-flutter-app"></section>
             <h5 className="card-title">2. Create First Flutter App</h5> <hr />
             <ul>
               <li>
@@ -114,6 +116,7 @@ function LearningCards() {
         {/* 3.Run First Flutter App ==============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
+            <section id="run-first-flutter-app"></section>
             <h5 className="card-title">3. Run First Flutter App</h5> <hr />
             <ul>
               <li>
@@ -143,6 +146,7 @@ function LearningCards() {
         {/* 4.Create Hello World App ===============================*/}
         <div className="card bg-dark mt-5">
           <div className="card-body">
+            <section id="create-hello-world-app"></section>
             <h5 className="card-title">4. Create Hello World App</h5> <hr />
             <h5>Step-1: Delete Demo Code</h5>
             <ul>
@@ -169,6 +173,7 @@ function LearningCards() {
           />
         </div>
         {/* 5.Flutter Widgets ===============================*/}
+        <section id="flutter-widgets"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">5. Widgets in Flutter</h5> <hr />
@@ -244,6 +249,7 @@ function LearningCards() {
           </div>
         </div>
         {/* 6.MaterialApp ==============================*/}
+        <section id="material-app"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">6. MaterialApp</h5> <hr />
@@ -293,6 +299,7 @@ function LearningCards() {
           />
         </div>
         {/* 7. Scaffold ==============================*/}
+        <section id="scaffold"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">7. Scaffold</h5> <hr />
@@ -333,6 +340,7 @@ function LearningCards() {
           />
         </div>
         {/* 8.AppBar ==============================*/}
+        <section id="appbar-property"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">8. AppBar</h5> <hr />
@@ -385,6 +393,8 @@ function LearningCards() {
           />
         </div>
         {/* 9.BottomNavigationBar ==============================*/}
+        {/* section is used for navigate */}
+        <section id="bottom-navigation-bar"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">9. BottomNavigationBar</h5> <hr />
@@ -395,7 +405,7 @@ function LearningCards() {
               <li>add <u><b>BottomNavigationBar</b></u> to your <u><b>build method</b></u></li>
             </ul>
             <p>For Navigate one screen to another,,</p>
-            <p><b>List&lt;Widget&gt;</b> widgetList = const [ <br/> HomePage() , <br /> ProfilePage() ,<br /> SettingPage() <br/> ] ;</p>
+            <p><b>List&lt;Widget&gt;</b> widgetList = const [ <br/> HomeScreen() , <br /> ProfileScreen() ,<br /> SettingScreen() <br/> ] ;</p>
             
             <h5>Proparties:</h5>
 
@@ -435,6 +445,8 @@ function LearningCards() {
 
 
         {/* 10. Drawer ==============================*/}
+        {/* section is used for navigation */}
+        <section id="drawer"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">10. Drawer</h5> <hr />
@@ -465,6 +477,8 @@ function LearningCards() {
 
 
         {/* 11. Container ==============================*/}
+        {/* section is used for navigate */}
+        <section id="container"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">11. Container</h5> <hr />
@@ -499,6 +513,8 @@ function LearningCards() {
 
 
         {/* 12. Row & Column ==============================*/}
+        {/* section is used for navigate */}
+        <section id="row-and-column"></section>
         <div className="card bg-dark mt-5">
           <div className="card-body">
             <h5 className="card-title">12. Row & Column</h5> <hr />

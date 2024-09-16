@@ -60,7 +60,7 @@ function Navbar() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#download-and-install"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -69,17 +69,17 @@ function Navbar() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#download-and-install">
                         1. Flutter
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#download-and-install">
                         2. Dart
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#download-and-install">
                         3. Android Studio - for Android
                       </a>
                     </li>
@@ -90,7 +90,7 @@ function Navbar() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#create-first-flutter-app"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -99,7 +99,7 @@ function Navbar() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-first-flutter-app">
                         1. Open windows{" "}
                         <u>
                           <b>Command shell</b>
@@ -107,7 +107,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-first-flutter-app">
                         2. Command{" "}
                         <u>
                           <b>flutter create appname</b>
@@ -121,7 +121,7 @@ function Navbar() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#run-first-flutter-app"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -130,7 +130,7 @@ function Navbar() {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#run-first-flutter-app">
                         1. Open{" "}
                         <u>
                           <b>Android Studio</b>
@@ -138,7 +138,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#run-first-flutter-app">
                         2. Open{" "}
                         <u>
                           <b>appname file</b>
@@ -146,7 +146,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#run-first-flutter-app">
                         3. Connect{" "}
                         <u>
                           <b>Emulator</b>
@@ -154,7 +154,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#run-first-flutter-app">
                         4. Run Flutter Demo App
                       </a>
                     </li>
@@ -165,7 +165,7 @@ function Navbar() {
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    href="#create-hello-world-app"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
@@ -175,7 +175,7 @@ function Navbar() {
                   <ul className="dropdown-menu">
                     <li>
                       <h5>Step-1: Delete Demo Code</h5>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         1. Open{" "}
                         <u>
                           <b>Project Files</b>
@@ -183,7 +183,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         2. Open{" "}
                         <u>
                           <b>lib</b>
@@ -192,7 +192,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         3. Open{" "}
                         <u>
                           <b>main.dart</b>
@@ -201,13 +201,13 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         4. Delete Demo Code
                       </a>
                     </li>
                     <li>
                       <h5>Step-2: Write New Code</h5>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         1. import{" "}
                         <u>
                           <b>Material.dart</b>
@@ -216,7 +216,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         2. Create{" "}
                         <u>
                           <b>main</b>
@@ -225,7 +225,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         3. Create an{" "}
                         <u>
                           <b>App Widget</b>
@@ -233,7 +233,7 @@ function Navbar() {
                       </a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#create-hello-world-app">
                         4. Create a{" "}
                         <u>
                           <b>Screen widget</b>
@@ -243,6 +243,66 @@ function Navbar() {
                   </ul>
                 </li>
 
+                {/* Flutter Widgets */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    5. <b>Flutter Widgets</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#flutter-widgets">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                {/* MaterialApp */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    6. <b>MaterialApp</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#material-app">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                {/* Scaffold */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    7. <b>Scaffold</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#scaffold">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
                 {/* AppBar */}
                 <li className="nav-item dropdown">
                   <a
@@ -252,12 +312,97 @@ function Navbar() {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    5. <b>AppBar</b>
+                  
+                    8. <b>AppBar</b>
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a className="dropdown-item" href="#">
-                        1. Properties
+                      <a className="dropdown-item" href="#appbar-property">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                {/* BottomNavigationBar */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    9. <b>BottomNavigationBar</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#bottom-navigation-bar">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                {/* Drawer */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    10. <b>Drawer</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#drawer">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                {/* Container */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    11. <b>Container</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#container">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                {/* Row & Column */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    12. <b>Row & Column</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#row-and-column">
+                        Properties
                       </a>
                     </li>
                   </ul>
