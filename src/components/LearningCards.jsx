@@ -207,7 +207,7 @@ function LearningCards() {
               <li>Wrap</li>
               <li>Flex</li>
             </ul>
-            <h5>4. Layout Widgets</h5>
+            <h5>4. Material Widgets</h5>
             <ul>
               <li>AppBar</li>
               <li>BottonNavigationBar</li>
@@ -394,6 +394,8 @@ function LearningCards() {
               <li>create <u><b>BottomNavigationBar</b></u> widget</li>
               <li>add <u><b>BottomNavigationBar</b></u> to your <u><b>build method</b></u></li>
             </ul>
+            <p>For Navigate one screen to another,,</p>
+            <p><b>List&lt;Widget&gt;</b> widgetList = const [ <br/> HomePage() , <br /> ProfilePage() ,<br /> SettingPage() <br/> ] ;</p>
             
             <h5>Proparties:</h5>
 
