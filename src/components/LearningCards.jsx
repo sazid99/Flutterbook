@@ -543,6 +543,54 @@ function LearningCards() {
           />
         </div>
 
+        {/* 13. Button ==============================*/}
+        {/* section is used for navigate */}
+        <section id="button-widgets"></section>
+        <div className="card bg-dark mt-5">
+          <div className="card-body">
+            <h5 className="card-title">13. Button</h5> <hr />
+            <p>
+              A Button is a Flutter widget that displays a clickable button with a specified text or icon. It supports various customization options, such as color, text style, onPressed, and disabled state.
+            </p>
+            <h5>Types of Button:</h5>
+            <ul>
+              <li><b>ElevatedButton</b></li>
+              <li><b>TextButton</b></li>
+              <li><b>OutlinedButton</b></li>
+              <li><b>IconButton</b></li>
+              <li><b>FloatingActionButton</b></li>
+              <li><b>DropdownButton</b></li>
+              <li><b>InkWell</b> is a button that is clickable widgets like container, images, card.</li>
+              <li><b>PopupButton</b></li>
+              <li><b>BackButton</b></li>
+              <li><b>CloseButton</b></li>
+              <li><b>MaterialButton</b></li>
+              <li><b>RawMaterialButton</b></li>
+              <li><b>GestureDetector</b></li>
+            </ul>
+            
+            <h5>Proparties:</h5>
+
+            <ul>
+              <li>child: <u><b>Widget</b></u> (required)</li>
+              <li>onPressed: <u><b>VoidCallback</b></u> (optional)</li>
+              <li>onLongPressed: <u><b>VoidCallback</b></u> (optional)</li>
+              <li>onHover: <u><b>VoidCallback</b></u> (optional)</li>
+              <li>style: <u><b>ButtonStyle</b></u> (optional)</li>
+              <li>focusNode: <u><b>FocusNode</b></u> (optional)</li>
+              <li>autofocus: <u><b>bool</b></u> (false)</li>
+              <li>clipBehavior: <u><b>Clip</b></u> (optional)</li>
+              <li>statesController: <u><b>WidgetStatesController</b></u> (optional)</li>
+              <li>iconAlignment: <u><b>IconAlignment</b></u> (optional)</li>
+            </ul>
+          </div>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*su03duAAUIIIMQeuJLvdDA.jpeg"
+            className="card-img-bottom"
+            alt="Download & Install Flutter"
+          />
+        </div>
+
         {/* Cards end here ============================*/}
       </div>
     </>

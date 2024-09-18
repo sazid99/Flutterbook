@@ -1,6 +1,15 @@
 import "./Navbar.css";
 
 function Navbar() {
+
+  function handleItemClick(){
+    let dropDownItem = document.querySelector(".dropdown-item");
+    // let offcanvasDarkNavbar = document.getElementById("offcanvas-dark-navbar");
+    dropDownItem.addEventListener("click", ()=>{
+      console.log("clk");
+    })
+  }
+
   return (
     <>
       <nav className="navbar navbar-dark fixed-top">
@@ -22,6 +31,7 @@ function Navbar() {
 
 
           <div
+            onClick={handleItemClick}
             className="offcanvas offcanvas-end text-bg-nav"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
@@ -402,6 +412,27 @@ function Navbar() {
                   <ul className="dropdown-menu">
                     <li>
                       <a className="dropdown-item" href="#row-and-column">
+                        Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                {/* Button */}
+                <li className="nav-item dropdown">
+                  <a
+                    className="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  
+                    13. <b>Button</b>
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <a className="dropdown-item" href="#button-widgets">
                         Properties
                       </a>
                     </li>
